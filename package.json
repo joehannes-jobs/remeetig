@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/joehannes-jobs/remeeting#readme",
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "vorpal": "^1.12.0"
   }
 }
