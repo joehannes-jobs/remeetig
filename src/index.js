@@ -33,6 +33,7 @@ vorpal
         .then(res => res.json())
         .then((data) => {
           this.log(data);
+          status.win.call(this);
         })
         .catch((err) => {
           this.log("Oh my, the API didn't work to our liking, ... what could be wrong here??");
@@ -46,6 +47,7 @@ vorpal
         .then(res => res.json())
         .then((data) => {
           this.log(data);
+          status.lose.call(this);
         })
         .catch((err) => {
           this.log("Oh my, the API didn't work to our liking, ... what could be wrong here??");
