@@ -1,0 +1,24 @@
+{
+  "name": "remeeting",
+  "version": "1.0.0",
+  "description": "Job Application @remeeting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehannes-jobs/remeeting.git"
+  },
+  "keywords": [
+    "remeeting",
+    "job-application",
+    "frontend-task"
+  ],
+  "author": "johannes.neugschwentner@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joehannes-jobs/remeeting/issues"
+  },
+  "homepage": "https://github.com/joehannes-jobs/remeeting#readme"
+}
