@@ -55,7 +55,7 @@ Thanks!
 
 ### 4. Presenting my own UI/UX library: Prudencss!
 
-* Please navigate to [prudencss@github](www.github.com/prudencss/scss)
+* Please navigate to [prudencss@github](https://www.github.com/prudencss/scss)
 * Check out the README
 * Navigate to the [root org](https://www.github.com/prudencss) and see there's a few component framework integrations in the planning/doing
 * Check out the storybook for [React-FP](https://prudencss.github.io/react-fp) (Sorry, for now it's all about a Button only)
