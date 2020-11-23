@@ -13,6 +13,15 @@ vorpal
   .option('-v, --verbose', 'Also print internal details')
   .option('-f, --force', 'Always win')
   .option('-d, --debug', 'Always lose')
+  .validate(function(opts) {
+    const { threeDigits } = opts;
+
+    if (/^\d{3}$/.test(Number(threeDigits))) {
+      return true;
+    }
+
+    return "Please use a three digit number!!";
+  })
   .description('A game of chances and smart words ... Guess, win by chance, get an API assertion and an API quote')
   .alias('play')
   .action(function(args, callback) {
