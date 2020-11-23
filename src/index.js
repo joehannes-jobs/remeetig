@@ -31,7 +31,7 @@ vorpal
       fetch(statsAPI.win)
         .then((data) => {
           this.log(arguments);
-        }
+        })
         .catch((err) => {
           this.log("Oh my, the API didn't work to our liking, ... what could be wrong here??");
         });
@@ -39,7 +39,7 @@ vorpal
       fetch(statsAPI.lose)
         .then((data) => {
           this.log(arguments);
-        }
+        })
         .catch((err) => {
           this.log("Oh my, the API didn't work to our liking, ... what could be wrong here??");
         });
