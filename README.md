@@ -60,4 +60,4 @@ Thanks!
 * Navigate to the [root org](https://www.github.com/prudencss) and see there's a few component framework integrations in the planning/doing
 * Check out the storybook for [React-FP](https://prudencss.github.io/react-fp) (Sorry, for now it's all about a Button only)
 
-### 5.
+### 5. Ask me about my favorite IDE/editor!! (neovim)
