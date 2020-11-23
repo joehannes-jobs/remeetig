@@ -2,8 +2,9 @@
   "name": "remeeting",
   "version": "1.0.0",
   "description": "Job Application @remeeting",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/joehannes-jobs/remeeting/issues"
   },
-  "homepage": "https://github.com/joehannes-jobs/remeeting#readme"
+  "homepage": "https://github.com/joehannes-jobs/remeeting#readme",
+  "dependencies": {
+    "vorpal": "^1.12.0"
+  }
 }
